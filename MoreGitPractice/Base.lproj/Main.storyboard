@@ -29,6 +29,19 @@
                                     <segue destination="BqG-Wa-W3K" kind="show" identifier="buttonToStuff" id="s71-wE-TLy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG8-Sp-aQj">
+                                <rect key="frame" x="205" y="425" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Bns-02-AZD" kind="show" id="DPP-H9-I2U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfK-sP-pSd">
+                                <rect key="frame" x="198" y="514" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -42,7 +55,15 @@
                 <viewControllerPlaceholder storyboardName="Marble" id="BqG-Wa-W3K" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JIh-FB-AmJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="580" y="71"/>
+            <point key="canvasLocation" x="742" y="152"/>
+        </scene>
+        <!--LaunchScreen-->
+        <scene sceneID="1Vg-mw-boo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LaunchScreen" id="Bns-02-AZD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JOp-bS-srk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="730" y="265"/>
         </scene>
     </scenes>
 </document>
